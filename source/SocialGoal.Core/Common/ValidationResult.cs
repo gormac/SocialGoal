@@ -16,11 +16,11 @@ namespace SocialGoal.Core.Common
         /// <summary>
         /// Initializes a new instance of the <see cref="ValidationResult"/> class.
         /// </summary>
-        /// <param name="memeberName">Name of the memeber.</param>
+        /// <param name="memberName">Name of the member.</param>
         /// <param name="message">The message.</param>
-        public ValidationResult(string memeberName, string message)
+        public ValidationResult(string memberName, string message)
         {
-            this.MemberName = memeberName;
+            this.MemberName = memberName;
             this.Message = message;
         }
 
