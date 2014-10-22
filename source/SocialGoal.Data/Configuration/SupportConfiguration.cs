@@ -8,13 +8,13 @@ using SocialGoal.Model.Models;
 
 namespace SocialGoal.Data.Configuration
 {
-    public class SupportConfiguration:EntityTypeConfiguration<Support>
+    public class SupportConfiguration : EntityTypeConfiguration<Support>
     {
         public SupportConfiguration()
         {
             Property(s => s.SupportedDate).IsRequired();
             Property(s => s.GoalId).IsRequired();
             Property(s => s.UserId).IsMaxLength();
-    }
+        }
     }
 }
